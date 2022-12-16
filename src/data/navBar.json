@@ -1,0 +1,28 @@
+[
+  {
+    "type": "Stays",
+    "icon": "🕍",
+    "active": false
+  },
+  {
+    "type": "Flights",
+    "icon": "🛫",
+    "active": false
+  },
+  {
+    "type": "Car rentals",
+    "icon": "🚗",
+    "active": false
+  },
+  {
+    "type": "Attractions",
+    "icon": "🕍",
+
+    "active": false
+  },
+  {
+    "type": "Airport taxis",
+    "icon": "🚕",
+    "active": false
+  }
+]

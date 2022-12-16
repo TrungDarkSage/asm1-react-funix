@@ -1,0 +1,52 @@
+.mailList {
+  width: 80%;
+  margin-top: 50px;
+  background-color: #003580;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.mailTitile {
+  font-weight: 600;
+}
+
+.mailDesc {
+  font-weight: 400;
+}
+
+.mailInputContainer {
+  width: 500px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  gap: 10px;
+}
+
+.mailInputContainer > input {
+  width: 310px;
+  height: 50px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.inputText {
+  padding-left: 10px;
+}
+
+.mailInputContainer > button {
+  height: 50px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
