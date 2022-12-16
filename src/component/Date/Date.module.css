@@ -1,0 +1,14 @@
+.date {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.input {
+  color: lightgray;
+  width: 105%;
+  border-color: lightgray;
+}
+
+.dateRange {
+  float: left;
+}

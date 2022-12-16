@@ -6,21 +6,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { DateRange } from "react-date-range";
 import styles from "./Header.module.css";
-import React, { useState } from "react";
+import Date from "../Date/Date";
+
 const Header = () => {
   // func button search
   function handleClickSearch() {
     window.location.replace("./search");
-  }
-
-  const [clickDate, setClickDate] = useState(false);
-
-  // func input date
-  function handleClickDate() {
-    setClickDate(true);
-    if (clickDate) {
-      console.log("render date range");
-    }
   }
 
   return (
@@ -49,20 +40,14 @@ const Header = () => {
 
           <div
             className={styles.headerSearchItem}
-            onClick={() => handleClickDate()}
+            // onClick={() => handleClickDate()}
           >
             <FontAwesomeIcon
               icon={faCalendarDays}
               className={styles.headerIcon}
             />
-            <span className={styles.headerSearchText}>
-              {/* <input type="date" />
-              <span>
-                <p>to</p>
-              </span>
-              <input type="date" /> */}
-              date to date
-            </span>
+
+            <Date className={styles.headerSearchText} />
           </div>
 
           <div className={styles.headerSearchItem}>
